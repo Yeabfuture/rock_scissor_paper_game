@@ -27,7 +27,7 @@ while total < number_of_times_played:
         elif player == 'rock':
             if computer == 'scissors':
                 total += 1
-                return 'Rock smashes scissors. You win congrats:)'
+                return 'Rock smashes scissors. You win:)'
             else:
                 total += 1
                 return 'Paper covers rock. You lose :('
